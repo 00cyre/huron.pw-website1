@@ -1,0 +1,437 @@
+@keyframes example 
+
+{			
+
+	0%   {box-shadow:  0 6px 20px 0 rgba(255, 0, 0,   0.2);}
+
+	25%  {box-shadow:  0 6px 20px 0 rgba(225, 225, 0, 0.2);}
+
+	40%  {box-shadow:  0 6px 20px 0 rgba(0, 225, 0,   0.2);}
+
+	60%  {box-shadow:  0 6px 20px 0 rgba(0, 225, 225, 0.2);}
+
+	80%  {box-shadow:  0 6px 20px 0 rgba(0, 0, 255,   0.2);}
+
+	100% {box-shadow:  0 6px 20px 0 rgba(255, 0, 0,   0.2);}
+
+}
+
+@keyframes intro 
+
+{			
+
+	0%  
+		{
+			
+			opacity:0.1;
+		}
+
+	50%  
+		{
+			
+			opacity:1;
+		}	
+
+
+
+	
+
+}
+
+.intro
+
+{
+
+	
+
+	animation-timing-function: ease-in;
+
+	animation-name: intro;
+
+	animation-duration: 1s;
+
+
+
+}
+
+@keyframes rTextz 
+
+{			
+
+	0%   {color: rgba(255, 0, 0,   1);}
+
+	25%  {color: rgba(225, 225, 0, 1);}
+
+	40%  {color: rgba(0, 225, 0,   1);}
+
+	60%  {color: rgba(0, 225, 225, 1);}
+
+	80%  {color: rgba(0, 0, 255,   1);}
+
+	100% {color: rgba(255, 0, 0,   1);}
+
+}
+@keyframes rbtn
+
+{			
+
+	0%   {background-color: rgba(255, 0, 0,   1);}
+
+	25%  {background-color: rgba(150, 150, 1);}
+
+	40%  {background-color: rgba(0, 150, 0,   1);}
+
+	60%  {background-color: rgba(0, 150, 150, 1);}
+
+	80%  {background-color: rgba(0, 0, 150,   1);}
+
+	100% {background-color: rgba(255, 0, 0,   1);}
+
+}
+.btn-loko { 
+  color: #ffffff; 
+  background-color: #FFFFFF; 
+  border-color: #130269; 
+} 
+ 
+.btn-loko:hover, 
+.btn-loko:focus, 
+.btn-loko:active, 
+.btn-loko.active, 
+.open .dropdown-toggle.btn-loko { 
+  color: #ffffff; 
+  background-color: #49247A; 
+  border-color: #130269; 
+} 
+ 
+.btn-loko:active, 
+.btn-loko.active, 
+.open .dropdown-toggle.btn-loko { 
+  background-image: none; 
+} 
+ 
+.btn-loko.disabled, 
+.btn-loko[disabled], 
+fieldset[disabled] .btn-loko, 
+.btn-loko.disabled:hover, 
+.btn-loko[disabled]:hover, 
+fieldset[disabled] .btn-loko:hover, 
+.btn-loko.disabled:focus, 
+.btn-loko[disabled]:focus, 
+fieldset[disabled] .btn-loko:focus, 
+.btn-loko.disabled:active, 
+.btn-loko[disabled]:active, 
+fieldset[disabled] .btn-loko:active, 
+.btn-loko.disabled.active, 
+.btn-loko[disabled].active, 
+fieldset[disabled] .btn-loko.active { 
+  background-color: #611BBD; 
+  border-color: #130269; 
+} 
+ 
+.btn-loko .badge { 
+  color: #611BBD; 
+  background-color: #ffffff; 
+}
+.Textz
+{
+	color:white;
+}
+.rbtn
+
+{
+    	color: rgba(255, 0, 0, 1);
+
+	animation-timing-function: linear;
+
+	animation-name: rbtn;
+
+	animation-duration: 2s;
+
+	animation-iteration-count: infinite;}
+	.discord
+	{
+	    color: rgba(114, 137, 218);
+	    text-align: center;
+    
+    font-size: 22px;
+	}
+	.discord:hover
+	{
+	    cursor: pointer;
+	}
+
+	
+.rTextz
+
+{
+
+    text-align: center;
+    
+    font-size: 22px;
+    
+    left:15%;
+    
+	color: rgba(255, 0, 0, 1);
+
+	animation-timing-function: linear;
+
+	animation-name: rTextz;
+
+	animation-duration: 2s;
+
+	animation-iteration-count: infinite;}
+
+	
+	rTextz:hover
+	{
+
+	    cursor: pointer;
+	
+
+
+
+}
+
+
+
+.waow
+
+{
+
+    position:fixed;
+
+    bottom: 25px;
+
+    left: 25px;
+
+}
+
+
+.CCopy {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .CCopy {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .CCopy {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .CCopy {
+    width: 1170px;
+  }
+}
+.navbar {
+
+
+background-color: #212121;
+
+	box-shadow:  0 6px 20px 0 rgba(255, 0, 0, 0.2);
+
+		animation-timing-function: linear;
+
+		animation-name: example;
+
+		animation-duration: 2s;
+
+		animation-iteration-count: infinite;
+
+  margin-bottom: 0;
+
+}
+
+
+
+.jumbotron {
+
+  padding-top: 6rem;
+
+  padding-bottom: 6rem;
+
+  margin-bottom: 0;
+
+  background-color: #fff;
+
+}
+
+
+
+.jumbotron p:last-child {
+
+  margin-bottom: 0;
+
+}
+
+
+
+.jumbotron-heading {
+
+  
+
+  font-weight: 300;
+
+}
+
+
+
+.jumbotron .container {
+
+  max-width: 40rem;
+
+}
+
+
+
+.ye {
+
+    padding-top:25px;
+
+    padding-bottom:5px;
+
+}
+
+
+
+
+
+
+
+footer {
+
+    position: fixed;
+
+    bottom: 10px;
+
+    right: 0px;
+
+    width: 100%;
+
+}
+
+
+
+.Cabuloso {
+
+    text-align: center;
+
+    font-size: 15px;
+
+}
+
+.switch {
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 60px;
+
+    height: 34px;
+
+}
+
+    .switch input {
+
+        display: none;
+
+    }
+
+
+
+.slider {
+
+    position: absolute;
+
+    cursor: pointer;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    background-color: #ccc;
+
+    -webkit-transition: .4s;
+
+    transition: .4s;
+
+}
+
+
+
+    .slider:before {
+
+        position: absolute;
+
+        content: "";
+
+        height: 26px;
+
+        width: 26px;
+
+        left: 4px;
+
+        bottom: 4px;
+
+        background-color: white;
+
+        -webkit-transition: .4s;
+
+        transition: .4s;
+
+    }
+
+
+
+input:checked + .slider {
+
+    background-color: #2196F3;
+
+}
+
+
+
+input:focus + .slider {
+
+    box-shadow: 0 0 1px #2196F3;
+
+}
+
+
+
+input:checked + .slider:before {
+
+    -webkit-transform: translateX(26px);
+
+    -ms-transform: translateX(26px);
+
+    transform: translateX(26px);
+
+}
+
+
+
+.slider.round {
+
+    border-radius: 34px;
+
+}
+
+
+
+    .slider.round:before {
+
+        border-radius: 50%;
+
+    } 
